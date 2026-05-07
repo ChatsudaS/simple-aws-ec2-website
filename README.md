@@ -102,12 +102,6 @@ chmod +x backup_website.sh
 - After finishing the setup, I changed the SSH rule in the security group back from `0.0.0.0/0` to **My IP** only.
 - This keeps the website public but restricts admin access to my own address.
 
-## What I learned
-- How to launch and secure an EC2 instance on AWS.
-- How to install and manage Nginx on Amazon Linux.
-- How to create simple bash scripts for server maintenance and backups.
-- How to use security groups to control HTTP vs SSH access.
-
 ## How to reuse this project
 Anyone can recreate this project by:
 1. Launching an EC2 instance with Amazon Linux.
